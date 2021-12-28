@@ -9,7 +9,7 @@ public class CharacterInLineage2 {
     String name;
 
     void correlationOfLevelAndOccupation(int level){
-        if(level < 20){
+        if(level >= 0 && level < 20){
             System.out.println("Your occupation might be Elven Wizard or Elven Oracle");
         } else if(level < 40){
             System.out.println("Your occupation might be Elven Elder or Spell Singer");

@@ -30,16 +30,4 @@ public class CharacterInLineage2 {
     void printCharacter(){
         System.out.println("Name: " + name + " Race: " +  race + occupation + " Level: " + level);
     }
-
-    public static void main(String[] args) {
-        com.daniil.CharacterInLineage2 drappi = new CharacterInLineage2();
-        drappi.race = "elf";
-        drappi.level = 79;
-        drappi.isWisard = true;
-        drappi.occupation = "Eva's Saint";
-        drappi.name = "drappi";
-        drappi.correlationOfLevelAndOccupation(drappi.level);
-        drappi.printCharacter();
-        drappi.whatToWearAccordingToYourClass();
-    }
 }
